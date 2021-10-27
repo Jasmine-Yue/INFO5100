@@ -16,7 +16,8 @@ public class Main {
 
         //test Question4:
         Question4 q4= new Question4();
-        String s="abcabcbbabcd";
+        String s="abcabcbb";
+        System.out.println("Question4 test:");
         System.out.println(q4.getLongestSubstring(s));
     }
 }
