@@ -9,5 +9,7 @@ public class Main {
         Context contextMultiply = new Context(new MultiplyOperation());
         System.out.println(contextMultiply.execute(4, 25)); // Expects 100
 
+        //
+
     }
 }
