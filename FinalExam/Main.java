@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Q1:
+
         int[][] room = {{0, 0, 0, 0},
                 {0, 0, 0, 0},
                 {-1, 0, 0, 0},
@@ -25,6 +26,7 @@ public class Main {
         int[] nums = new int[]{1, 2, 3};
         int k = 3;
         System.out.println("Q3 test result:" + subarrayTotal(nums, k));
+
 
         //Q4
         Netflix netflix = new Netflix();
